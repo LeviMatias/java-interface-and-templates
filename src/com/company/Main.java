@@ -24,8 +24,8 @@ public class Main {
 
         SortUtil.ordenar(arr);
 
-        for (Persona p: arr){
-            System.out.println(p.getNombre() + " " + p.getDni());
+        for (Celular p: arr){
+            System.out.println(p.getTitular() + " " + p.getNumero());
 
         }
     }
