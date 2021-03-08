@@ -22,7 +22,7 @@ public class Main {
         arr[5] =  new Celular("Lucas", 545254);
         arr[6] = new Celular("Javier",545444);
 
-        SortUtil.ordenar(arr);
+
 
         for (Celular p: arr){
             System.out.println(p.getTitular() + " " + p.getNumero());
