@@ -22,7 +22,7 @@ public class Quicksort implements Sorter{
         T pivot = numbers[right];
         int i = left - 1;
         for (int j = left; j < right; ++j) {
-            if (comp.compare(numbers[j], pivot) < 0) {
+            if (comp.compare(numbers[j], pivot) <= 0) {
                 swap(numbers, ++i, j);
             }
         }
